@@ -12,5 +12,3 @@ Question `let`
 Question `const`
 1) There should be an error on line 7. We try to reassign a variable `result` that is a const.
 2) There should be an error on line 7. We try to reassign a variable `result` that is a const. Additionally, const is block scoped, so it is not accessible on line 13.
-
-### Part 2:
