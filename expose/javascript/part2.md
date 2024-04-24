@@ -15,3 +15,11 @@
 7) Line 14 will not cause an error because `finalPrice` is defined outside the for loop. Therefore, it is accessable in the entire function, because `let` means the variable is block scoped. `finalPrice` should be 150 at the console.log statement.
 
 8) This function will return `[50, 200, 300]`. The function goes through each value and multiplies it by `1-discountedPrice`. In this case, `discountedPrice` is 0.5, so we multiply by 0.5.
+
+9) Line 12 will error. `i` is a block scope variable. The block `i` is defined in is the `for` loop. Line 12 is outside the for loop.
+
+10) The program will print `3` representing the length of the array `[100, 200, 300]` passed into the function. The program did not edit `length` after it was declared, so it will not cause errors. `const` means that `length` is block scoped. Both line 4 and 12 are in the same block.
+
+11) This function will return `[50, 200, 300]`. The function goes through each value and multiplies it by `1-discountedPrice`. In this case, `discountedPrice` is 0.5, so we multiply by 0.5. We call functions on `discounted` and do not reassign it, so it will not throw an error.
+
+12) 
