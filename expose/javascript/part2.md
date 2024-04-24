@@ -22,4 +22,13 @@
 
 11) This function will return `[50, 200, 300]`. The function goes through each value and multiplies it by `1-discountedPrice`. In this case, `discountedPrice` is 0.5, so we multiply by 0.5. We call functions on `discounted` and do not reassign it, so it will not throw an error.
 
-12) 
+#### Data Types
+
+12:
+a) `student.name`
+b) `student["Grad Year"]`
+c) `student.greeting()`
+d) `student["Favorite Teacher"].name`
+e) `student.courseLoad[0]`
+
+#### Basic Operators and Type Conversion
