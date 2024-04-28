@@ -1,0 +1,2 @@
+1) The bug was that the types of `num1` and `num2` were strings, not numbers. Therefore, the `+` symbol performed concatination, not addition.
+2) To fix the code, I casted `num1` and `num2` to Numbers before the addition. The resulting line 11 looks like this: `let result = Number(num1) + Number(num2);`
